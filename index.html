@@ -37,7 +37,7 @@
 <body class="font-manrope">
     <main>
         <!-- nev + header section  -->
-        <section class="bg-gradient-to-b from-gray-100 to-white h-full drop-shadow-lg">
+        <section class="bg-gradient-to-b from-gray-100 to-white  drop-shadow-lg">
             <!-- nav bar -->
             <header class="lg:max-w-7xl mx-auto">
                 <nav>
@@ -45,30 +45,6 @@
 
                         <!-- Nav Left  -->
                         <div class="navbar-start">
-                            <div class="dropdown">
-                                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M4 6h16M4 12h8m-8 6h16" />
-                                    </svg>
-                                </div>
-                                <ul tabindex="0"
-                                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                    <li><a>Item 1</a></li>
-                                    <li>
-                                        <a>Parent</a>
-                                        <ul class="p-2">
-                                            <li><a>Home</a></li>
-                                            <li><a>Services</a></li>
-                                            <li><a>Portfolio</a></li>
-                                            <li><a>Blogs</a></li>
-                                            <li><a>Contact Us</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a>Item 3</a></li>
-                                </ul>
-                            </div>
                             <!-- logo  -->
                             <div class="flex items-center">
                                 <div class="h-5 w-5 flex items-center justify-center rounded-full bg-Rgreen">
@@ -92,6 +68,8 @@
 
                         <!-- Nav End  -->
                         <div class="navbar-end gap-4">
+                            
+                            
                             <div class="h-8 w-8 flex items-center justify-center rounded-full bg-white">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </div>
@@ -104,6 +82,30 @@
                                     <i class="text-white fa-solid fa-arrow-right -rotate-45"></i>
                                 </div>
                             </a>
+
+                            <div class="dropdown">
+                                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 6h16M4 12h8m-8 6h16" />
+                                    </svg>
+                                </div>
+                                <ul tabindex="0"
+                                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                    
+                                    
+                                        <ul class="p-2">
+                                            <li><a>Home</a></li>
+                                            <li><a>Services</a></li>
+                                            <li><a>Portfolio</a></li>
+                                            <li><a>Blogs</a></li>
+                                            <li><a>Contact Us</a></li>
+                                        </ul>
+                                 
+                                   
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -370,10 +372,76 @@
             
             </section>
          </section>
-       
+
+
+         <!-- form section  -->
+          
+         <section class="bg-[url('assets/bg.jpg')] bg-cover bg-opacity-50">
+            <section class="lg:max-w-7xl mx-auto  gap-8 py-20 p-10">
+
+                <section>
+                <div class="hero ">
+                    <div class="hero-content text-center mb-10">
+                      <div class="">
+                        <!-- Explore us info  -->
+                        <button class="btn bg-Rgreen bg-opacity-20 rounded-full mb-3"><i
+                            class="text-black fa-solid fa-arrow-right"></i>Let's Connect</button>
+                            
+                        <h1 class="text-5xl font-extrabold">Let's Discuss Next Project</h1>
+                        <p class="py-6">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.
+                        </p>
+                        
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Form  -->
+                  <form class="grid grid-cols-2 gap-5 max-w-4xl mx-auto" >
+                    <input type="text" placeholder="First Name" class="input  w-full max-w-s rounded-full" />
+                    <input type="text" placeholder="Last Name" class="input  w-full max-w-s rounded-full" />
+                    <input type="text" placeholder="Phone Number" class="input  w-full max-w-s rounded-full" />
+                    <input type="text" placeholder="Email Address" class="input  w-full max-w-s rounded-full" />
+                    
+
+                    <textarea class="textarea textarea- col-span-2 rounded-3xl h-48" placeholder="Write your message here"></textarea>
+                    <button class="btn bg-Rgreen rounded-full col-span-2 border-none">Send Mail
+                        <div class="h-5 w-5 flex items-center justify-center rounded-full bg-black">
+                            <i class="text-white fa-solid fa-arrow-right -rotate-45"></i>
+                        </div>
+                    </button>
+                 </form>
+             </section>
+            
+            </section>
+         </section>
 
     </main>
-
+   
+        <footer class="footer footer-center bg-[#1C1C1C] text-base-content rounded p-10 text-white grid grid-cols-1">
+            <!-- logo  -->
+            <div class="flex items-center">
+                <div class="h-5 w-5 flex items-center justify-center rounded-full bg-Rgreen">
+                    <i class=" fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                </div>
+                <a class="btn btn-ghost text-xl -ml-2">Rinterio</a>
+            </div>
+            <p class="text-gray-400" >The barn house captivates with its blend of rustic charm and modern sophistication,<br>featuring weathered wood, sleek metal accents.</p>
+            <nav class="grid md:grid-flow-col gap-10 text-gray-200 sm:grid-cols-1">
+              <a class="link link-hover">Home</a>
+              <a class="link link-hover">Services</a>
+              <a class="link link-hover">Portfolio</a>
+              <a class="link link-hover">Blogs</a>
+              <a class="link link-hover">Contact Us</a>
+            </nav>
+            <button class="btn bg-Rgreen rounded-full flex font-bold border-none ">Book Consult
+                <div class="h-5 w-5 flex items-center justify-center rounded-full bg-black">
+                    <i class="text-white fa-solid fa-arrow-right -rotate-45"></i>
+                </div>
+            </button>
+          </footer>
+    
 
 </body>
 
